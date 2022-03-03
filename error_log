@@ -1,0 +1,8 @@
+[30-Jun-2021 16:02:09 UTC] PHP Parse error:  syntax error, unexpected ''User Email: $visitor_email.\n' (T_CONSTANT_ENCAPSED_STRING) in /home/shaheer/public_html/education/form-handler.php on line 12
+[30-Jun-2021 16:04:29 UTC] PHP Parse error:  syntax error, unexpected ''User Email: $visitor_email.\n' (T_CONSTANT_ENCAPSED_STRING) in /home/shaheer/public_html/education/form-handler.php on line 12
+[30-Jun-2021 16:05:30 UTC] PHP Parse error:  syntax error, unexpected ''User Email: $visitor_email.\n' (T_CONSTANT_ENCAPSED_STRING) in /home/shaheer/public_html/education/form-handler.php on line 12
+[30-Jun-2021 16:06:35 UTC] PHP Parse error:  syntax error, unexpected ''User Email: $visitor_email.\n' (T_CONSTANT_ENCAPSED_STRING) in /home/shaheer/public_html/education/form-handler.php on line 12
+[30-Jun-2021 16:12:18 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/shaheer/public_html/education/form-handler.php on line 12
+[30-Jun-2021 16:13:14 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/shaheer/public_html/education/form-handler.php on line 12
+[30-Jun-2021 16:13:19 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/shaheer/public_html/education/form-handler.php on line 12
+[30-Jun-2021 16:13:22 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/shaheer/public_html/education/form-handler.php on line 12

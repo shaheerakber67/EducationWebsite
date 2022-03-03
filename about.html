@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0" >
+	<title>University Website Design - Easy Tutorials</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet"> 
+<link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-46R2XQ5179"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-46R2XQ5179');
+</script>
+
+
+</head>
+<body>
+<section class= "sub-header">
+	<nav>
+		<a href="index"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+
+			<ul>
+				<li><a href="index">HOME</a></li>
+				<li><a href="about">ABOUT</a></li>
+				<li><a href="course">COURSE</a></li>
+				<li><a href="blog">BLOG</a></li>
+				<li><a href="contact">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick=" showMenu()"></i>
+	</nav>
+	<h1>About Us</h1>
+</section>
+
+
+
+<!---------About us Content------->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>We are the largest university</h1>
+			<p>Nunc placerat vitae tortor eu egestas. Nam sit amet elit fermentum, placerat massa at, euismod dolor. Cras ornare pretium sodales. Praesent tempor nisi eu nibh dictum, et facilisis sapien eleifend. Curabitur libero libero, pretium a orci et, cursus tempus elit. Sed non odio erat. Donec nec lacinia lectus, bibendum venenatis est. Sed aliquet tristique ipsum sed euismod.</p>
+			<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="images/about.jpg">
+			
+		</div>
+	</div>
+
+
+
+</section>
+
+<!--------- Footer ------->
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Nunc placerat vitae tortor eu egestas. Nam sit amet elit fermentum, placerat massa at,<br>euismod dolor. Cras ornare pretium sodales.</p>
+	<div class= "icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made by Shaheer Akber</p>
+</section>
+
+
+
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+		
+	}
+
+</script>
+<!--------JavaScript for Toggle Menu Ended------->
+</body>
+</html>
